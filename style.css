@@ -1,0 +1,155 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ .text h1 , p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.container{
+    background: #0c0b0bc7;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    border-radius: 10px;
+  
+}
+.bordero{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+.todoList{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+    background: #ffffff;
+    padding: 6px;
+    border-bottom: 1px solid gray;
+    border-radius: 5px;
+    height: 40px;
+    box-shadow: 5px 5px rgb(0, 0, 1, 0.5);
+    font-weight: bold;
+    flex-wrap: wrap; 
+    width: 325px;
+}
+
+.deleteTask{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    background: orangered;
+    color: #ffffff;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pText{
+    background: #ffffff;
+    text-transform: capitalize;
+}
+
+.inputvalue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 60px;
+}
+
+.inputVal{
+    display: flex;
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 2px solid rgb(69, 5, 187);
+  
+}
+
+.btn{
+    width: 100px;
+    background: #097d56;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+}
+
+.clearTask{
+   bottom: 5px;
+   left: 15%;
+   background: orangered;
+   color: #ffffff;
+   width: 250px;
+   height: 35px;
+   border-radius: 5px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
+}
+
+
+/* -------------------------MEDIA 947PX------------------ */
+@media(max-width:947px){
+    .inputVal{
+        width: 600px;
+    }
+}
+
+
+/* -------------------------MEDIA 76PX4------------------ */
+@media (max-width:764px){
+    .inputVal{
+        width: 300px;
+        font-size: 14px;
+    }
+
+    .btn{
+        width: 80px;
+        height: 60px;
+    }
+
+    .todoList{
+        width: 300px;
+    }
+
+    .clearTask{
+        width: 200px;
+        font-size: 14px;
+    }
+}
+
+
+/* -------------------------MEDIA 360PX------------------ */
+@media (max-width:360px){
+    .inputVal{
+        width: 150px;
+        font-size: 10px;
+    }
+
+    .todoList{
+        width: 200px;
+    }
+    
+    .clearTask{
+        width: 100px;
+        font-size: 10px;
+    }
+}

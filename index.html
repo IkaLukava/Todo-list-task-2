@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo list Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+crossorigin="anonymous">
+</head>
+<body>
+    <div class="text">
+        <h1>What's Upp Man</h1>
+        <P>You can just write a list or something, whatever what you want.</P>
+    </div>
+
+
+      <div class="container">
+        <div class="myTodo">
+            <div class="inputvalue">
+                <input class="inputVal" type="text"  placeholder="Take what makes you happy😘" value="">
+                <button type="button" class="btn btn-secondary">Let's add😎</button>
+            </div>
+            
+        <div class="bordero">
+            <div class="todoLists">      
+            </div>
+        </div>
+            <button class="clearTask" onclick="clearTask()">Clear all Task</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
