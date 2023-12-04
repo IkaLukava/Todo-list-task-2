@@ -44,7 +44,11 @@ function deleteItem(index){
     taskList.splice(index,1)
     localStorage.setItem('some', JSON.stringify(taskList))
     showlist()
+}
 
+function clearTask(){
+    localStorage.clear()
+    showlist()
 }
 
 
